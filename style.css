@@ -1,0 +1,171 @@
+/*
+I picked the font- family Noto-sans because I belived it made my write up
+clean and professional. After doing my research I found out that these two
+fonts are popoularly used in news article which meant people are used to reading them
+in long texts. Since going through my whole website people will be readinga a lot of 
+texts , I wanted to make it easy for them and be able to capture their attention.
+The mood I am going for is being able to tell a personal story which users will know about
+by reading. 
+font-family: 'Montserrat', sans-serif;
+font-family: 'Merriweather', serif;
+*/
+
+
+
+
+/* I increased the line height an font size a bit to improve readability 
+I justified the texts left so it would be easier to read the paragraph
+
+I further used contrast in the font color where the main title being my name is in black
+then the page title on the left is in a contrasting red color, followed by the menu
+which is also in a contrasting blue color. Then the tet is in black and the difference of 
+colors show clear sectioning partition in the website.
+
+*/
+
+
+/* I used the box model in the paragraph with margin, padding to show the text
+in a box so that they are easily identifiable and readable in the webpage
+
+*/
+
+
+p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2em;
+    line-height: 1.5em;
+    margin-right: 10%;
+    margin-left: 10%;
+    padding-left: 10%;
+    text-align: left;
+}
+
+.inv-text{
+    margin-left:20%;
+}
+
+footer{
+display:inline;
+}
+footer p {
+    padding-left: 10%;
+    font-size: 10px;
+    text-align: center;
+}
+
+h1{
+    font-size: 4em;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+
+}
+
+h2{
+    margin-right: 50%;
+    font-size: 40px;
+    font-family: 'Merriweather', serif;
+    color: darkred;
+} 
+
+.menu{
+    display: inline;
+    float: right;
+    padding-right:25%;
+}
+
+body{
+    background-color: lightblue;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-size: 20px;    
+}
+
+li{
+    color: black;
+    float: left;
+    padding: 10px;
+
+}
+
+ul li a{
+    color: darkblue;
+    display: inline-block;
+    font-family: 'Merriweather', serif;
+    font-size: 25px;
+    text-decoration: none;
+
+}
+
+ul li a:active{
+    color: white;
+}
+.is-current{
+    background-color: coral;
+    color: white;
+}
+
+
+
+figure img{
+    float:left;
+    width:25%;
+    height:25%;
+    padding-left: 0.5em;
+    text-align: center;
+    border-radius: 50%;
+    margin-right: 5%;
+
+}
+
+
+.info h2{
+    float:right;
+    padding-top: 10px;
+    font-size: 2em;
+    margin-left: 2%;
+    color:red;
+}
+.info p{
+    text-align: justify;
+}
+
+
+
+ title{
+     font-size: 1em;
+ }
+
+ .logo{
+    margin-right:5%; 
+ }
+
+
+/*
+I made the logo imaegs smaller compared to my profile image, as there
+were 3 logos at the same place. This makes the text look bigger in that page letting
+readers know that the text is the more important part
+*/
+
+ .logo img{
+    float: left;
+    height: 10%;
+    width: 10%;
+   
+    padding-left: 1%;
+}
+ 
+
+
+
+ .job-description{
+     float:right;
+ }   
+.job-description p{
+    font-size:2em;
+    float:right;    
+}
